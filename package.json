@@ -1,0 +1,19 @@
+{
+  "name": "react-animate-container",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": {
+    "name": "joxxe274",
+    "email": "joxxe274@gmail.com"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.4"
+  }
+}
