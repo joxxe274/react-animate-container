@@ -17,12 +17,6 @@ jobs:
       - name: Checkout
         # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
         uses: actions/checkout@v3
-      
-      - name: 'change version'
-        uses: reedyuk/npm-version@1.1.1
-        with:
-          version: '1.0.1'
-          git-tag-version: 'true'
 
       - name: Setup Node
         # Setup node environment
