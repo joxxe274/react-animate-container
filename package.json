@@ -1,66 +1,32 @@
 {
-  "name": "react-animate-container",
-  "version": "0.0.2",
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
-  "types": "./dist/esm/index.d.ts",
-  "description": "Easy animate react component",
-  "license": "MIT",
+  "name": "my-react-typescript-package",
+  "version": "0.1.0",
+  "description": "Demo page of my-react-typescript-package",
   "scripts": {
-    "build": "yarn build:esm && yarn build:cjs",
-    "build:esm": "tsc",
-    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
-    "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
-    "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\"",
-    "test": "jest --config jestconfig.json",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run prettier && npm run lint"
-  },
-  "author": {
-    "name": "Jorge Sotomayor (joxxe274)",
-    "email": "joxxe274@gmail.com"
-  },
-  "devDependencies": {
-    "@testing-library/react": "^13.4.0",
-    "@types/jest": "^29.2.4",
-    "@types/react": "^18.0.26",
-    "@types/react-dom": "^18.0.9",
-    "@typescript-eslint/eslint-plugin": "^5.46.1",
-    "@typescript-eslint/parser": "^5.46.1",
-    "eslint": "^8.29.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.31.11",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "jest": "^29.3.1",
-    "jest-canvas-mock": "^2.4.0",
-    "jest-environment-jsdom": "^29.3.1",
-    "my-react-typescript-package": "^1.0.0",
-    "parcel": "^2.8.1",
-    "prettier": "^2.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "ts-jest": "^29.0.3",
-    "typescript": "^4.9.4"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir docs --public-url .",
+    "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joxxe274/react-animate-container.git"
+    "url": "git+https://github.com/gapon2401/my-react-typescript-package.git"
   },
-  "peerDependencies": {
-    "react": ">=16"
-  },
-  "files": [
-    "dist",
-    "LICENSE",
-    "README.md"
-  ],
-  "keywords": [
-    "react",
-    "typescript",
-    "animate",
-    "animation",
-    "react-animate-container",
-    "animation react"
-  ]
+  "author": "gapon2401",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "eslint": "^8.29.0",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "my-react-typescript-package": "^0.1.0",
+    "parcel": "^2.6.2",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-animate-container": "^0.0.2",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.7.4"
+  }
 }
