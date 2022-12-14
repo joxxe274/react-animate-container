@@ -7,7 +7,7 @@ type Props = {
 const Demo: React.FC<Props> = ({ greeting = 'World' }) => {
   return (
     <div>
-      <h1>Hello {greeting}</h1>
+      <h1>Hello {greeting} - new version</h1>
     </div>
   );
 };
