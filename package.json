@@ -1,10 +1,6 @@
 {
   "name": "react-animate-container",
-<<<<<<< HEAD
   "version": "0.2.0",
-=======
-  "version": "0.0.2",
->>>>>>> main
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/esm/index.d.ts",
