@@ -1,3 +1,3 @@
-import Demo from './App';
+import { AnimateContainer } from './AnimateContainer.component';
 
-export { Demo };
+export { AnimateContainer };

@@ -1,0 +1,281 @@
+@import './animations/bounce';
+@import './animations/flash';
+@import './animations/pulse';
+@import './animations/rubberBand';
+@import './animations/shakeX';
+@import './animations/shakeY';
+@import './animations/shake';
+@import './animations/swing';
+@import './animations/tada';
+@import './animations/wobble';
+@import './animations/jello';
+@import './animations/heartBeat';
+@import './animations/backInDown';
+@import './animations/backInLeft';
+@import './animations/backInRight';
+@import './animations/backInUp';
+@import './animations/backOutDown';
+@import './animations/backOutLeft';
+@import './animations/backOutRight';
+@import './animations/backOutUp';
+@import './animations/bounceIn';
+@import './animations/bounceInDown';
+@import './animations/bounceInLeft';
+@import './animations/bounceInRight';
+@import './animations/bounceInUp';
+@import './animations/bounceOut';
+@import './animations/bounceOutDown';
+@import './animations/bounceOutLeft';
+@import './animations/bounceOutRight';
+@import './animations/bounceOutUp';
+@import './animations/fadeIn';
+@import './animations/fadeInBottomLeft';
+@import './animations/fadeInBottomRight';
+@import './animations/fadeInDown';
+@import './animations/fadeInLeft';
+@import './animations/fadeInRight';
+@import './animations/fadeInTopLeft';
+@import './animations/fadeInTopRight';
+@import './animations/fadeInUp';
+@import './animations/fadeOut';
+@import './animations/fadeOutBottomLeft';
+@import './animations/fadeOutBottomRight';
+@import './animations/fadeOutDown';
+@import './animations/fadeOutLeft';
+@import './animations/fadeOutRight';
+@import './animations/fadeOutTopLeft';
+@import './animations/fadeOutTopRight';
+@import './animations/fadeOutUp';
+@import './animations/flip';
+@import './animations/flipInX';
+@import './animations/flipInY';
+@import './animations/flipOutX';
+@import './animations/flipOutY';
+
+
+.animate-container {
+  animation-duration: .6s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  transition: ease-in-out .6s;
+  &__opacity-none {
+    opacity: 0;
+  }
+
+  &__bounce {
+    animation-name: bounce;
+  }
+
+  &__flash {
+    animation-name: flash;
+  }
+
+  &__pulse {
+    animation-name: pulse;
+  }
+
+  &__rubberBand {
+    animation-name: rubberBand;
+  }
+
+  &__shakeX {
+    animation-name: shakeX;
+  }
+
+  &__shakeY {
+    animation-name: shakeY;
+  }
+
+  &__headShake {
+    animation-name: shake;
+  }
+
+  &__swing {
+    animation-name: swing;
+  }
+
+  &__tada {
+    animation-name: tada;
+  }
+
+  &__wobble {
+    animation-name: wobble;
+  }
+
+  &__jello {
+    animation-name: jello;
+  }
+
+  &__heartBeat {
+    animation-name: heartBeat;
+  }
+
+  &__backInDown {
+    animation-name: backInDown;
+  }
+
+  &__backInLeft {
+    animation-name: backInLeft;
+  }
+
+  &__backInRight {
+    animation-name: backInRight;
+  }
+
+  &__backInUp {
+    animation-name: backInUp;
+  }
+
+  &__backOutDown {
+    animation-name: backOutDown;
+  }
+
+  &__backOutLeft {
+    animation-name: backOutLeft;
+  }
+
+  &__backOutRight {
+    animation-name: backOutRight;
+  }
+
+  &__backOutUp {
+    animation-name: backOutUp;
+  }
+
+  &__bounceIn {
+    animation-name: bounceIn;
+  }
+
+  &__bounceInDown {
+    animation-name: bounceInDown;
+  }
+
+  &__bounceInLeft {
+    animation-name: bounceInLeft;
+  }
+
+  &__bounceInRight {
+    animation-name: bounceInRight;
+  }
+
+  &__bounceInUp {
+    animation-name: bounceInUp;
+  }
+
+  &__bounceOut {
+    animation-name: bounceOut;
+  }
+
+  &__bounceOutDown {
+    animation-name: bounceOutDown;
+  }
+
+  &__bounceOutLeft {
+    animation-name: bounceOutLeft;
+  }
+
+  &__bounceOutRight {
+    animation-name: bounceOutRight;
+  }
+
+  &__bounceOutUp {
+    animation-name: bounceOutUp;
+  }
+
+  &__fadeIn {
+    animation-name: fadeIn;
+  }
+
+  &__fadeInBottomLeft {
+    animation-name: fadeInBottomLeft;
+  }
+
+  &__fadeInBottomRight {
+    animation-name: fadeInBottomRight;
+  }
+
+  &__fadeInDown {
+    animation-name: fadeInDown;
+  }
+
+  &__fadeInLeft {
+    animation-name: fadeInLeft;
+  }
+
+  &__fadeInRight {
+    animation-name: fadeInRight;
+  }
+
+  &__fadeInTopLeft {
+    animation-name: fadeInTopLeft;
+  }
+
+  &__fadeInTopRight {
+    animation-name: fadeInTopRight;
+  }
+
+  &__fadeInUp {
+    animation-name: fadeInUp;
+  }
+
+  &__fadeOut {
+    animation-name: fadeOut;
+  }
+
+  &__fadeOutBottomLeft {
+    animation-name: fadeOutBottomLeft;
+  }
+
+  &__fadeOutBottomRight {
+    animation-name: fadeOutBottomRight;
+  }
+
+  &__fadeOutDown {
+    animation-name: fadeOutDown;
+  }
+
+  &__fadeOutLeft {
+    animation-name: fadeOutLeft;
+  }
+
+  &__fadeOutRight {
+    animation-name: fadeOutRight;
+  }
+
+  &__fadeOutTopLeft {
+    animation-name: fadeOutTopLeft;
+  }
+
+  &__fadeOutTopRight {
+    animation-name: fadeOutTopRight;
+  }
+
+  &__fadeOutUp {
+    animation-name: fadeOutUp;
+  }
+
+  &__flip {
+    animation-name: flip;
+    backface-visibility: visible !important;
+  }
+
+  &__flipInX {
+    animation-name: flipInX;
+    backface-visibility: visible !important;
+  }
+
+  &__flipInY {
+    animation-name: flipInY;
+    backface-visibility: visible !important;
+  }
+
+  &__flipOutX {
+    animation-name: flipOutX;
+    backface-visibility: visible !important;
+  }
+
+  &__flipOutY {
+    animation-name: flipOutY;
+    backface-visibility: visible !important;
+  }
+}
