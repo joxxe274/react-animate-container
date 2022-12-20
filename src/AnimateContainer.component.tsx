@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './styles/style.module.scss';
+import styles from './styles/style.module.css';
 import { AnimateContainerOpject, AnimationType, AnimationProps, AnimationFunction } from './interfaces/animations';
 import { useIntersected } from './hooks/intersected';
 import { slowAnimations } from './const/consts';
