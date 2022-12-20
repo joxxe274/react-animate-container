@@ -12,7 +12,7 @@
     "parcel": "^2.8.1",
     "process": "^0.11.10",
     "react": "^18.2.0",
-    "react-animate-container": "^0.0.1",
+    "react-animate-container": "^0.5.1",
     "react-dom": "^18.2.0"
   }
 }
