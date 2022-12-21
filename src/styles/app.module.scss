@@ -1,0 +1,16 @@
+@import './vars';
+
+.main-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-router-content {
+  width: 100%;
+  @include mediaTablet {
+    width: calc(100% - rem(320));
+    height: calc(100vh - rem(69));
+    overflow: auto;
+  }
+}

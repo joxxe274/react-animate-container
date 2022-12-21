@@ -14,6 +14,7 @@
   "author": "gapon2401",
   "license": "MIT",
   "devDependencies": {
+    "@parcel/transformer-sass": "2.8.1",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
     "@typescript-eslint/eslint-plugin": "^5.46.1",
@@ -25,8 +26,16 @@
     "parcel": "^2.6.2",
     "process": "^0.11.10",
     "react": "^18.2.0",
-    "react-animate-container": "^0.0.2",
+    "react-animate-container": "^0.5.1",
     "react-dom": "^18.2.0",
     "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^1.2.1",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "react-code-blocks": "^0.0.9-0",
+    "react-router-dom": "^6.5.0",
+    "sort-by": "^1.2.0"
   }
 }

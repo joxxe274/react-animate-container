@@ -1,0 +1,20 @@
+$colorPink: #e91e63;
+$colorLink: #3080d0;
+$colorDark: #404244;
+$colorGray: #5a5d5f;
+
+@mixin mediaTablet {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mediaDesktop {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}
+
+@function rem($px) {
+  @return calc($px / 16) + rem;
+}

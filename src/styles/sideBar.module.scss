@@ -1,0 +1,45 @@
+@import './vars';
+
+.side-bar {
+  position: absolute;
+  transition: all 0.5s ease;
+  transform: translateX(-100%);
+  width: 100%;
+  border-right: 1px dashed #eee;
+  max-width: rem(320);
+  top: rem(2);
+  left: 0;
+  height: calc(100vh - rem(69));
+  overflow: auto;
+  background-color: #fffdfd;
+  z-index: 2;
+  &__open {
+    transform: translateX(0);
+  }
+  &__content {
+    a {
+      width: 100%;
+      padding: 16px 22px;
+      display: block;
+      border-bottom: 0.5px dashed #f2efef;
+      font-size: rem(16);
+      text-decoration: none;
+      color: $colorLink;
+
+      &.active {
+        background-color: #f5f5f5;
+        color: $colorPink;
+        text-decoration: underline;
+      }
+    }
+  }
+  @include mediaTablet {
+    position: relative;
+    transform: translateX(0);
+    &__content {
+      a {
+        font-size: rem(18);
+      }
+    }
+  }
+}

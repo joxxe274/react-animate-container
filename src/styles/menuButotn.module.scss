@@ -1,0 +1,65 @@
+@import './vars';
+
+.menu-button-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.menu-bar {
+  width: 75%;
+  height: rem(2.5);
+  border-radius: rem(4);
+  background-color: $colorPink;
+  transition: all 0.3s ease-in-out;
+}
+
+@keyframes animation-1 {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  100% {
+    transform: translateY(rem(5)) rotate(-45deg);
+  }
+}
+
+@keyframes animation-2 {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  100% {
+    transform: translateY(rem(-2)) rotate(-45deg);
+  }
+}
+
+@keyframes animation-3 {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  100% {
+    transform: translateY(rem(-8)) rotate(45deg);
+  }
+}
+
+.menu-bar-animation {
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-duration: .4s;
+
+  &--1 {
+    animation-name: animation-1;
+    transform: translateY(rem(5)) rotate(-45deg);
+  }
+
+  &--2 {
+    animation-name: animation-2;
+    transform: translateY(rem(-2)) rotate(-45deg);
+  }
+
+  &--3 {
+    animation-name: animation-3;
+    transform: translateY(rem(-8)) rotate(45deg);
+  }
+}
